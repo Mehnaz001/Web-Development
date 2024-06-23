@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .upper{
+            display: flex;
+        }
+       button{
+        background-color: black;
+        color: white;
+        padding: 10px;
+       }
+       .container{
+        display: flex;
+       }
+      .column{
+        flex: 3;
+        background-color: rgb(210, 205, 205);
+        margin-left:40px ;
+        height: 300px;
+      }
+      input{
+        background-color: rgb(221, 219, 219);
+        padding-right: 200px;
+        padding-bottom: 25px;
+        padding-top: 5px;
+      }
+    </style>
+    
+</head>
+
+<body>
+    <div>
+        <a>Logo</a><a style="margin-left: 1200px;">About</a><a style="margin-left: 40px;">Work</a><a style="margin: 40px;">Contact</a>
+    </div>
+    <br><br>
+    <div class="upper">
+        <div>
+            <b>Branding |Image making</b><br>
+            <h1 style="font-weight: bolder;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;font-size:40px;" >Visual Designer</h1>
+            This is a Template Figma design turned into code using Anima.<br>Learn more at AnimaApp.com
+            <br><br><button>Contact</button>
+        </div>
+        <div style="margin-left: 700px;">
+            <img src="https://technoderivation.com/assets/images/vector/digital-marketing-2.png" height="400px" width="500px">
+        </div>
+    </div>
+    <div><!-- Brand Logos-->
+        <img src="data:image/png;base64,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" height ="60px" width="90px">
+        <img style="margin-left: 200px;" src="https://i.pinimg.com/736x/33/e6/3d/33e63d5adb0da6b303a83901c8e8463a.jpg" height="70px" alt="">
+        <img style="margin-left:200px ;" src="https://i.pinimg.com/474x/76/50/20/7650202e956e24e2b92449ca3e888e51.jpg"height="85px"width="150px" alt="">
+        <img style="margin-left:350px ;" src="https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg" height="80" width="90">
+        <img  style="margin-left: 200px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/2560px-Adidas_Logo.svg.png" height="60px" width="80px">
+    </div><br><br><br><br><br>
+    <div>
+        <img  src="https://i.pinimg.com/736x/96/c2/04/96c204b0edd2be29c4eadb6db2bf2a73.jpg" height="250px" alt="">
+        <img style="margin-left: 250px;" src="https://png.pngtree.com/png-vector/20220504/ourmid/pngtree-black-banner-shape-design-vector-free-png-png-image_4562574.png" height="250px" alt="">
+        <img  style="margin-left:250px ;" src="https://miro.medium.com/v2/resize:fit:1400/0*otuKRSATc8DmQ-v3.png" height="250px" alt="">
+    </div> 
+    <div>
+        <span style="font-size: xx-large; margin-left: 10px;">Product Design</span>
+        <span style="font-size: xx-large; margin-left: 300px;">Visual Design</span>
+        <span style="font-size: xx-large; margin-left: 400px;">Art Direction</span>
+    </div>
+    <div>
+        <pre>
+    This is template Figma Design turned into                           This is template Figma Design turned into                               This is template Figma File turned into   
+    code using AnimaApp.Learn more at                                    code using AnimaApp.Learn more at                                       code using AnimaApp.Learn more at 
+        AnimaApp.com                                                          AnimaApp.com                                                              AnimaApp.com
+        </pre>
+    </div>
+    <center><h1>Latest Work</h1></center>
+    <div><!--Products Images-->
+        <span style="margin-left: 60px;"><img src="https://www.elocalshops.com/cdn/shop/products/notebook-printing-services-500x500_350x350.jpg?v=1660618981" height="300px" width="360px"></span>
+        <span style="margin-left: 80px;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7v7ssZ4M6BbuOwNc0UW5Kodoq5laB3kykS-qzk6R0-j68KZeyaQm9JuNQWvARvDdIh78&usqp=CAU" height="300px"width="360px" alt=""></span>
+        <span style="margin-left:80px ;"><img src="https://www.promateworld.com/storage/blog/trendy-stationery-items-01-1.jpg"  height="300px"></span>
+    </div>
+    <span style="font-size:x-large; margin-left: 100px;">Project Title</span><span style="font-size:x-large;margin-left: 300px;">Project Title</span><span style="font-size:x-large;margin-left: 320px;">Project Title</span>
+<pre>           UI,Art direction                                               UI,Art direction                                             UI,Art direction</pre>
+<div>
+    <img style="margin-left:60px ;" src="https://www.dalgaru.com/cdn/shop/products/il_fullxfull.3768899483_shf2.jpg?v=1665553732&width=640" height="300px" width="360px">
+    <img style="margin-left:80px; ;" src="https://wallpapers.com/images/hd/classic-cup-of-coffee-qp6xc9twus31sx49.jpg" height="300px" width="360px">
+    <img style="margin-left:80px ;" src="https://as2.ftcdn.net/v2/jpg/04/19/80/45/1000_F_419804518_JLRLnErEl5wDV3R2j1m5wT01WQhZtdC3.jpg" height="300px" width="360px">
+</div>
+<span style="font-size:x-large; margin-left: 100px;">Project Title</span><span style="font-size:x-large;margin-left: 300px;">Project Title</span><span style="font-size:x-large;margin-left: 320px;">Project Title</span>
+<pre>           UI,Art direction                                               UI,Art direction                                             UI,Art direction</pre>
+
+<center><h1>Testimonials</h1></center>
+<div class="container"><!--Testimonials layouts-->
+    <div class="column">
+        <p style="margin: 50px;">This is template Figma File turned into code using Anima.Learn more at AnimaApp.com Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequuntur facere dolorum vero accusantium, rerum sequi quaerat minima. Voluptatem eligendi velit placeat nemo.<br><br><br><b>Gemma Nolen<br>Google</b></p>
+    </div>
+    <div class="column">
+        <p style="margin: 50px;">This is template Figma File turned into code using Anima.Learn more at AnimaApp.com Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequuntur facere dolorum vero accusantium, rerum sequi quaerat minima. Voluptatem eligendi velit placeat nemo.<br><br><br><b>Gemma Nolen<br>Google</b></p>
+    </div>
+    <div class="column">
+        <p style="margin: 50px;">This is template Figma File turned into code using Anima.Learn more at AnimaApp.com Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequuntur facere dolorum vero accusantium, rerum sequi quaerat minima. Voluptatem eligendi velit placeat nemo.<br><br><br><b>Gemma Nolen<br>Google</b></p>
+    </div>
+</div><br><br>
+<div class="container"><!--testimonials Layout-->
+    <div class="column">
+        <p style="margin: 50px;">This is template Figma File turned into code using Anima.Learn more at AnimaApp.com Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequuntur facere dolorum vero accusantium, rerum sequi quaerat minima. Voluptatem eligendi velit placeat nemo.<br><br><br><b>Gemma Nolen<br>Google</b></p>
+    </div>
+    <div class="column">
+        <p style="margin: 50px;">This is template Figma File turned into code using Anima.Learn more at AnimaApp.com Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequuntur facere dolorum vero accusantium, rerum sequi quaerat minima. Voluptatem eligendi velit placeat nemo.<br><br><br><b>Gemma Nolen<br>Google</b></p>
+    </div>
+    <div class="column">
+        <p style="margin: 50px;">This is template Figma File turned into code using Anima.Learn more at AnimaApp.com Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequuntur facere dolorum vero accusantium, rerum sequi quaerat minima. Voluptatem eligendi velit placeat nemo.<br><br><br><b>Gemma Nolen<br>Google</b></p>
+    </div>
+</div>
+<h2>Lets Work Together</h2>
+<div style="display: flex;"><!--Contact and Form-->
+    <div style="height: 300px;width: 400px;">
+        <p>This is Template Figma File turned into code using Anima.Learn more at AnimaApp.com. This is a Template Figma File turned into code using Anima. Learn more at AnimaApp.com.</p>
+    <img src="https://static.vecteezy.com/system/resources/previews/015/025/321/non_2x/facebook-instagram-twitter-and-whatsapp-icon-free-vector.jpg" height="90px" width="360px">
+    </div>
+    <div style="margin-left:400px ;">
+        <input type="text" placeholder="Name"><br><br>
+        <input type="email" placeholder="Email"><br><br>
+        <button style="border-width: 10px; padding-right:50px;">Submit</button>
+    </div>
+</div>
+
+</body>
+</html>
